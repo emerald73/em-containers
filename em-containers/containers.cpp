@@ -1,6 +1,5 @@
 #include "headers/stack.h"
 #include <iostream>
-#include <array>
 
 using namespace std;
 
