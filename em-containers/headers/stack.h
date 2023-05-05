@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const int limit = 10;
+#define limit 10
 
 class emeraldstack {
   public:
