@@ -1,7 +1,6 @@
 #ifndef _STACK_H_
 #define _STACK_H_
 #include <iostream>
-#include <array>
 
 using namespace std;
 
