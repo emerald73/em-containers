@@ -84,6 +84,16 @@ class emeraldstack {
       }
       return(isTrue);
     }
+
+    int size() {
+      int len = 0;
+      for (int i = 0; i < limit; i++) {
+        if (data[i] != 0) {
+          len++;
+        }
+      }
+      return(len);
+    }
 };
 
 #endif
