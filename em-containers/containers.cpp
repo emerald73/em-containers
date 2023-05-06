@@ -1,15 +1,14 @@
 #include "headers/stack.h"
+#include "headers/ringBuffer.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
   emeraldstack emstack;
+  emeraldRingBuffer embuffer;
 
-  emstack.push(24);
-  emstack.push(23);
-  emstack.push(46);
-
-  cout << emstack.size();
+  // examples soon idk
+  }
 
  }
