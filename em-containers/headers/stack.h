@@ -10,8 +10,6 @@ class emeraldstack {
   private:
     int data[limit] = {};
 
-  public:
-
     int latestPos() {
       int value = limit - 1;
       while (data[value] == 0 && value >= 0) {
@@ -19,6 +17,8 @@ class emeraldstack {
       }
       return(value);
     }
+
+  public:
 
     int peek() {
       int value = latestPos();

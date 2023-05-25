@@ -9,6 +9,5 @@ int main() {
   emeraldRingBuffer embuffer;
 
   // examples soon idk
-  }
 
  }
